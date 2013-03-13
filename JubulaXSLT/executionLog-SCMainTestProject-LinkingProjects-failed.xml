@@ -1,0 +1,2584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?xml-stylesheet type="text/xsl" href="format.xsl"?>-->
+<report style="Complete">
+  <project>
+    <name>SCMainTestProject 1.0</name>
+    <test-start>Tue Feb 05 16:44:07 CET 2013</test-start>
+    <test-end>Tue Feb 05 16:44:29 CET 2013</test-end>
+    <test-length>00:00:22</test-length>
+    <expectedNumSteps>260</expectedNumSteps>
+    <numStepsTested>21</numStepsTested>
+    <numEventHandlerSteps>0</numEventHandlerSteps>
+    <numFailedSteps>1</numFailedSteps>
+    <language>Englisch (Vereinigte Staaten von Amerika)</language>
+    <testsuite duration="0:00:19.116">
+      <name>LinkingProjects</name>
+      <status>5</status>
+      <aut>
+        <name>SolutionCenter</name>
+        <config>SolutionCenter@localhost</config>
+        <server>localhost</server>
+        <cmdline-parameter></cmdline-parameter>
+      </aut>
+      <test-run>
+        <testcase duration="0:00:08.881">
+          <name>Add a new Solution</name>
+          <status>1</status>
+          <step duration="0:00:00.436">
+            <name>Select Node by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:10 CET 2013</timestamp>
+            <component-name>SolutionCenterSolution_SolutionNavigator_Tree_1_tre</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Solution Projects</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Extend Selection</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>no</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:05.043">
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:10 CET 2013</timestamp>
+            <component-name>SolutionCenterSolution_SolutionNavigator_Tree_1_tre</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New/Solution</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>3</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.531">
+            <name>Wait for Window</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:15 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New Project</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Visibility</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.359">
+            <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:16 CET 2013</timestamp>
+            <component-name>SolutionCenterDeviceManag5_NewProject_Text_1_txf</component-name>
+            <component-type>Component with Text Input</component-type>
+            <action-type>Replace Text</action-type>
+            <parameter>
+              <parameter-name>Text</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>MyNewSolution</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.796">
+            <name>Click on dialog.button.finish ("Finish")</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:16 CET 2013</timestamp>
+            <component-name>SolutionCenterDeviceManag6_NewProject_Finish_btn</component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:01.404">
+            <name>Wait for Window to Close</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:17 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New Project</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Closure</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.296">
+            <name>Check Solution Exists</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:18 CET 2013</timestamp>
+            <component-name>Solution Navigator</component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Check Existence of Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Solution Projects/MyNewSolution</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Exists</parameter-name>
+              <parameter-type>Boolean</parameter-type>
+              <parameter-value>true</parameter-value>
+            </parameter>
+          </step>
+        </testcase>
+        <testcase duration="0:00:07.564">
+          <name>Create Safety Project</name>
+          <status>1</status>
+          <step duration="0:00:00.156">
+            <name>Select Node by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:19 CET 2013</timestamp>
+            <component-name>Device Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Safety Projects</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Extend Selection</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>no</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:02.048">
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:19 CET 2013</timestamp>
+            <component-name>Device Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New/Safety Project...</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>3</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.515">
+            <name>Wait for Window</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:21 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New Project</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Visibility</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.297">
+            <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:21 CET 2013</timestamp>
+            <component-name>SolutionCenterDeviceManag5_NewProject_Text_1_txf</component-name>
+            <component-type>Component with Text Input</component-type>
+            <action-type>Replace Text</action-type>
+            <parameter>
+              <parameter-name>Text</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>MySafetyProject</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.503">
+            <name>Click on dialog.button.next ("Next &gt;")</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:22 CET 2013</timestamp>
+            <component-name>SolutionCenterSolution_Adddevice_Next_btn</component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:01.643">
+            <name>Click on dialog.button.finish ("Finish")</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:22 CET 2013</timestamp>
+            <component-name>SolutionCenterSolution_Adddevice_Finish_btn</component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:01.185">
+            <name>Wait for Window</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:24 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Open Associated Perspective?</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Visibility</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.156">
+            <name>Click on dialog.button.cancel ("No")</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:25 CET 2013</timestamp>
+            <component-name>SolutionCenterSolution_OpenAssociatedPerspective_No_btn</component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.546">
+            <name>Wait for Window to Close</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:25 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Open Associated Perspective?</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Closure</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.515">
+            <name>Wait for Window to Close</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:26 CET 2013</timestamp>
+            <component-name>Application</component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+            <parameter>
+              <parameter-name>Title</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>New Project</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Timeout in ms</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>15000</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Delay after Closure</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>500</parameter-value>
+            </parameter>
+          </step>
+        </testcase>
+        <testcase duration="0:00:02.671">
+          <name>Link Safety Project Via Context Menu</name>
+          <status>5</status>
+          <step duration="0:00:00.234">
+            <name>Expand Node by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:26 CET 2013</timestamp>
+            <component-name>Solution Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Safety Projects</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.000">
+            <name>Expand Node by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:26 CET 2013</timestamp>
+            <component-name>Solution Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Solution Projects</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:00.172">
+            <name>Select Node by Textpath on Tree</name>
+            <status>1</status>
+            <timestamp>Tue Feb 05 16:44:26 CET 2013</timestamp>
+            <component-name>Solution Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+            <parameter>
+              <parameter-name>Path Type</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>absolute</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Pre-ascend</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>0</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Solution Projects/MyNewSolution</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Number of Clicks</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>1</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Extend Selection</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>no</parameter-value>
+            </parameter>
+          </step>
+          <step duration="0:00:01.392">
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>2</status>
+            <timestamp>Tue Feb 05 16:44:27 CET 2013</timestamp>
+            <component-name>Solution Navigator</component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+            <error>
+              <type>Action Error</type>
+              <description>Not Found</description>
+            </error>
+            <parameter>
+              <parameter-name>Textpath</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>Add Link...</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Operator</parameter-name>
+              <parameter-type>String</parameter-type>
+              <parameter-value>equals</parameter-value>
+            </parameter>
+            <parameter>
+              <parameter-name>Mouse Button</parameter-name>
+              <parameter-type>Integer</parameter-type>
+              <parameter-value>3</parameter-value>
+            </parameter>
+          </step>
+          <eventhandler duration="0:00:00.873">
+            <name>Default Event Handler</name>
+            <status>1</status>
+            <type>Action Error</type>
+            <reentry-property>EXIT</reentry-property>
+          </eventhandler>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Check Finish disabled</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Button/Check Box/Radio Button</component-type>
+            <action-type>Check Enablement</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.finish ("Finish")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <testcase>
+            <name>Open Editor on Linked Project</name>
+            <comment>Test Link with Editor</comment>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Collapse Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Collapse Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Collapse Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Collapse Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Tab by Value on Tabbed Pane ("Hardware Configurator","MySafetyProject")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tabbed Pane</component-type>
+              <action-type>Select Tab by Value</action-type>
+            </step>
+            <step>
+              <name>Select Tab by Value on Tabbed Pane ("Hardware Configurator","MySafetyProject")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tabbed Pane</component-type>
+              <action-type>Select Tab by Value</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Collapse Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Collapse Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Collapse Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Collapse Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Tab by Value on Tabbed Pane ("Hardware Configurator","MySafetyProject")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tabbed Pane</component-type>
+              <action-type>Select Tab by Value</action-type>
+            </step>
+            <step>
+              <name>Select Tab by Value on Tabbed Pane ("Hardware Configurator","MySafetyProject")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tabbed Pane</component-type>
+              <action-type>Select Tab by Value</action-type>
+            </step>
+          </testcase>
+          <testcase>
+            <name>Change Linked Project</name>
+            <status>0</status>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+          </testcase>
+          <testcase>
+            <name>Rename Linked Safety Project</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Checke Keep links Button</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Button/Check Box/Radio Button</component-type>
+              <action-type>Check Existence</action-type>
+            </step>
+            <step>
+              <name>Check Delete Links Button</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Button/Check Box/Radio Button</component-type>
+              <action-type>Check Existence</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("Update Links")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.cancel ("Don't build")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("Update Links")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.cancel ("Don't build")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+          </testcase>
+        </testcase>
+        <testcase>
+          <name>Link Project to SubProject</name>
+          <status>0</status>
+          <testcase>
+            <name>Add SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.finish ("Finish")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+          </testcase>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.finish ("Finish")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.ok ("Delete")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+          <testcase>
+            <name>Delete SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("Delete")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Check Link deleted</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>(SWT) Tree</component-type>
+              <action-type>Check Existence of Node by Textpath</action-type>
+            </step>
+          </testcase>
+        </testcase>
+        <testcase>
+          <name>Link Project via DnD</name>
+          <status>0</status>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Drag</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Drag Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Drop</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Drop on Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Expand Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Expand Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <testcase>
+            <name>Add SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.finish ("Finish")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+          </testcase>
+          <step>
+            <name>Drag</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Drag Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Drop</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Drop on Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Check Existence</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Check Existence of Node by Textpath</action-type>
+          </step>
+          <testcase>
+            <name>Find References</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click in Component on Table</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Table</component-type>
+              <action-type>Click in Component</action-type>
+            </step>
+            <step>
+              <name>Click in Component on Table</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Table</component-type>
+              <action-type>Click in Component</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+          </testcase>
+          <testcase>
+            <name>Delete SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("Delete")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Check Link deleted</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>(SWT) Tree</component-type>
+              <action-type>Check Existence of Node by Textpath</action-type>
+            </step>
+          </testcase>
+        </testcase>
+        <testcase>
+          <name>Delete Linked Safety Project</name>
+          <status>0</status>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Click on Button/Check Box/Radio Button ("Delete project contents on disk (cannot be undone)")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.ok ("OK")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Check Existence of KeepLinks Button</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Button/Check Box/Radio Button</component-type>
+            <action-type>Check Existence</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.ok ("Delete Links")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+        </testcase>
+        <testcase>
+          <name>Link VisProject via Copy/Paste</name>
+          <status>0</status>
+          <testcase>
+            <name>Create Vis Project</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.finish ("Finish")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.cancel ("No")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+          </testcase>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>(SWT) Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <testcase>
+            <name>Add SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Replace Text on Text Field/Text Area/Editor Pane/Text Pane</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Component with Text Input</component-type>
+              <action-type>Replace Text</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.finish ("Finish")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+          </testcase>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Key Combination</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Key Combination</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Key Combination</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Key Combination</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+          <testcase>
+            <name>Delete SubProject</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Expand Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Expand Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("Delete")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Check Link deleted</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>(SWT) Tree</component-type>
+              <action-type>Check Existence of Node by Textpath</action-type>
+            </step>
+          </testcase>
+          <testcase>
+            <name>Delete Vis Project</name>
+            <status>0</status>
+            <step>
+              <name>Select Node by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Node by Textpath</action-type>
+            </step>
+            <step>
+              <name>Select Context Menu Entry by Textpath on Tree</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Tree</component-type>
+              <action-type>Select Context Menu Entry by Textpath</action-type>
+            </step>
+            <step>
+              <name>Wait for Window</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window</action-type>
+            </step>
+            <step>
+              <name>Click on dialog.button.ok ("OK")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+            <step>
+              <name>Wait for Window to Close</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Application</component-type>
+              <action-type>Wait for Window to Close</action-type>
+            </step>
+            <step>
+              <name>Click on Toolbar Item ("Solution")</name>
+              <status>0</status>
+              <timestamp></timestamp>
+              <component-name></component-name>
+              <component-type>Graphics Component</component-type>
+              <action-type>Click</action-type>
+            </step>
+          </testcase>
+        </testcase>
+        <testcase>
+          <name>DeleteSolution</name>
+          <status>0</status>
+          <step>
+            <name>Select Node by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Node by Textpath</action-type>
+          </step>
+          <step>
+            <name>Select Context Menu Entry by Textpath on Tree</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Tree</component-type>
+            <action-type>Select Context Menu Entry by Textpath</action-type>
+          </step>
+          <step>
+            <name>Wait for Window</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window</action-type>
+          </step>
+          <step>
+            <name>Click on dialog.button.ok ("Delete")</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Graphics Component</component-type>
+            <action-type>Click</action-type>
+          </step>
+          <step>
+            <name>Wait for Window to Close</name>
+            <status>0</status>
+            <timestamp></timestamp>
+            <component-name></component-name>
+            <component-type>Application</component-type>
+            <action-type>Wait for Window to Close</action-type>
+          </step>
+        </testcase>
+      </test-run>
+    </testsuite>
+  </project>
+</report>

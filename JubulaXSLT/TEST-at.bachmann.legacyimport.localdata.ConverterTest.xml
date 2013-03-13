@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="2" time="4.336" errors="0" skipped="0" tests="6" name="at.bachmann.legacyimport.localdata.ConverterTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="gnu.io.rxtx.NoVersionOutput" value="true"/>
+    <property name="osgi.bundles.defaultStartLevel" value="4"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="org.osgi.supports.framework.extension" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\lib\jfr.jar;C:\Program Files (x86)\Java\jre7\classes"/>
+    <property name="osgi.ws" value="win32"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.7.0_13-b20"/>
+    <property name="osgi.instance.area" value="file:/D:/ws_sc/at.bachmann.legacyimport.test/target/work/data/"/>
+    <property name="org.osgi.framework.uuid" value="00f6faec-218a-0012-1522-8631163fb854"/>
+    <property name="osgi.noShutdown" value="false"/>
+    <property name="user.name" value="schreibm"/>
+    <property name="org.osgi.framework.system.packages" value="javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.nimbus,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.spi.http,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers"/>
+    <property name="equinox.use.ds" value="true"/>
+    <property name="org.osgi.framework.language" value="de"/>
+    <property name="user.language" value="de"/>
+    <property name="org.osgi.framework.processor" value="x86"/>
+    <property name="osgi.syspath" value="c:\Users\schreibm\.m2\repository\p2\osgi\bundle\org.eclipse.osgi\3.8.2.v20130124-134944"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre7\bin"/>
+    <property name="osgi.manifest.cache" value="D:\ws_sc\at.bachmann.legacyimport.test\target\work\configuration\org.eclipse.osgi\manifests"/>
+    <property name="org.osgi.framework.system.capabilities" value="osgi.ee; osgi.ee=&quot;OSGi/Minimum&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2&quot;,osgi.ee; osgi.ee=&quot;JRE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1&quot;,osgi.ee; osgi.ee=&quot;JavaSE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7&quot;"/>
+    <property name="java.version" value="1.7.0_13"/>
+    <property name="org.osgi.framework.os.name" value="Windows7"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="osgi.bundles" value="reference:file:C:/Users/schreibm/.m2/repository/at/bachmann/solutioncenter/at.bachmann.app.dman/1.1.6-SNAPSHOT/at.bachmann.app.dman-1.1.6-SNAPSHOT.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui/3.104.0.v20121024-145224/org.eclipse.ui-3.104.0.v20121024-145224.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.navigator/3.5.200.v20120705-114103/org.eclipse.ui.navigator-3.5.200.v20120705-114103.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.runtime/3.8.0.v20120912-155025/org.eclipse.core.runtime-3.8.0.v20120912-155025.jar@4:start,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.catalog/1.1.6.201303071615/at.bachmann.core.catalog-1.1.6.201303071615.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.catalog/1.1.6.201303071615/at.bachmann.ui.catalog-1.1.6.201303071615.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.help/3.6.0.v20120912-134126/org.eclipse.help-3.6.0.v20120912-134126.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.team.ui/3.6.201.v20130125-135424/org.eclipse.team.ui-3.6.201.v20130125-135424.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.resources/3.8.1.v20121114-124432/org.eclipse.core.resources-3.8.1.v20121114-124432.jar,reference:file:C:/Users/schreibm/.m2/repository/at/bachmann/solutioncenter/at.bachmann.app.dman.core/1.0.0-SNAPSHOT/at.bachmann.app.dman.core-1.0.0-SNAPSHOT.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.lib.mjcom/2.0.0.201303071606/at.bachmann.lib.mjcom-2.0.0.201303071606.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.license/1.0.0.201303071613/at.bachmann.core.license-1.0.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.config/0.9.0.201303080954/at.bachmann.core.config-0.9.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.module/2.0.0.201303080954/at.bachmann.core.module-2.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.resources/0.9.0.201303071613/at.bachmann.core.resources-0.9.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.device.online/1.0.0.201303080954/at.bachmann.core.device.online-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.hardware/1.0.0.201303080954/at.bachmann.core.hardware-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.software/1.0.0.201303080954/at.bachmann.core.software-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.utils/1.1.0.201303071613/at.bachmann.core.utils-1.1.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.solution/2.0.0.201303080958/at.bachmann.core.solution-2.0.0.201303080958.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.appearance/1.1.0.201303071613/at.bachmann.ui.appearance-1.1.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.solution/1.1.0.201303080958/at.bachmann.ui.solution-1.1.0.201303080958.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.resources/0.9.0.201303071613/at.bachmann.ui.resources-0.9.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.part/0.9.0.201303080951/at.bachmann.ui.part-0.9.0.201303080951.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.utils/0.9.0.201303071613/at.bachmann.ui.utils-0.9.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.help/1.1.6.201303071613/at.bachmann.ui.help-1.1.6.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.controller/1.0.0.201303080954/at.bachmann.ui.controller-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.config/0.9.0.201303080954/at.bachmann.ui.config-0.9.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.contexts/1.2.0.v20121221-192508/org.eclipse.e4.core.contexts-1.2.0.v20121221-192508.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.hardware.edit/1.0.0.201303080954/at.bachmann.core.hardware.edit-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.controller.edit/1.1.0.201303080954/at.bachmann.core.controller.edit-1.1.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.m1.core.edit/2.0.0.201303080954/at.bachmann.m1.core.edit-2.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.bdt.solution.core/1.0.0.201303080958/at.bachmann.bdt.solution.core-1.0.0.201303080958.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.commands/3.6.2.v20130123-162658/org.eclipse.core.commands-3.6.2.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore/2.8.3.v20130125-0546/org.eclipse.emf.ecore-2.8.3.v20130125-0546.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.expressions/3.4.401.v20120912-155018/org.eclipse.core.expressions-3.4.401.v20120912-155018.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ccontrol.testrunner/3.2.0/at.bachmann.ccontrol.testrunner-3.2.0.jar,reference:file:D:/ws_sc/at.bachmann.legacyimport.test/target/work/plugins/org.junit4_4.8.1.v20120523-1257,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.ant/1.8.3.v201301120609/org.apache.ant-1.8.3.v201301120609.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore.xmi/2.8.1.v20130125-0546/org.eclipse.emf.ecore.xmi-2.8.1.v20130125-0546.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.cru/1.0.2.201303071615/at.bachmann.core.cru-1.0.2.201303071615.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jface/3.8.102.v20130123-162658/org.eclipse.jface-3.8.102.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.cru.structure/1.0.0.201303080954/at.bachmann.core.cru.structure-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.part/1.0.0.201303080951/at.bachmann.core.part-1.0.0.201303080951.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.controller/2.0.0.201303080954/at.bachmann.core.controller-2.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding/1.4.1.v20120912-132807/org.eclipse.core.databinding-1.4.1.v20120912-132807.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.databinding/1.2.0.v20130125-0826/org.eclipse.emf.databinding-1.2.0.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.databinding.edit/1.2.1.v20130125-0826/org.eclipse.emf.databinding.edit-1.2.1.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.model/2.0.0.201303071613/at.bachmann.core.model-2.0.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.model.edit/1.1.0.201303071613/at.bachmann.core.model.edit-1.1.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.edit/2.8.0.v20130125-0826/org.eclipse.emf.edit-2.8.0.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.swt/3.100.1.v4236b/org.eclipse.swt-3.100.1.v4236b.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.net/1.2.200.v20120914-093638/org.eclipse.core.net-1.2.200.v20120914-093638.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.device.persistence/1.0.0.201303080954/at.bachmann.core.device.persistence-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.ui.navigator/1.1.0.201303071615/at.bachmann.ui.navigator-1.1.0.201303071615.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.m1.core/1.1.0.201303080954/at.bachmann.m1.core-1.1.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.xtext/2.3.1.v201208210947/org.eclipse.xtext-2.3.1.v201208210947.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.log4j/1.2.15.v201012070815/org.apache.log4j-1.2.15.v201012070815.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.xtext.util/2.3.1.v201208210947/org.eclipse.xtext.util-2.3.1.v201208210947.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.antlr.runtime/3.2.0.v201101311130/org.antlr.runtime-3.2.0.v201101311130.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.commons.logging/1.1.1.v201101211721/org.apache.commons.logging-1.1.1.v201101211721.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.registry/1.0.0.201303071613/at.bachmann.core.registry-1.0.0.201303071613.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.navigator/0.9.0.201303071615/at.bachmann.core.navigator-0.9.0.201303071615.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.core.software.edit/1.0.0.201303080954/at.bachmann.core.software.edit-1.0.0.201303080954.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.team.core/3.6.100.v20120524-0627/org.eclipse.team.core-3.6.100.v20120524-0627.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.di/1.2.0.v20121024-173149/org.eclipse.e4.core.di-1.2.0.v20121024-173149.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/ch.qos.logback.classic/1.0.0.v20111214-2030/ch.qos.logback.classic-1.0.0.v20111214-2030.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/ch.qos.logback.core/1.0.0.v20111214-2030/ch.qos.logback.core-1.0.0.v20111214-2030.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.slf4j.api/1.6.4.v20120130-2120/org.slf4j.api-1.6.4.v20120130-2120.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jface.databinding/1.6.0.v20120912-132807/org.eclipse.jface.databinding-1.6.0.v20120912-132807.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.property/1.4.100.v20120523-1955/org.eclipse.core.databinding.property-1.4.100.v20120523-1955.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench/0.11.0.v20130125-100758/org.eclipse.e4.ui.workbench-0.11.0.v20130125-100758.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.workbench/3.104.0.v20130204-164612/org.eclipse.ui.workbench-3.104.0.v20130204-164612.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/javax.inject/1.0.0.v20091030/javax.inject-1.0.0.v20091030.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.services/0.10.3.v20130123-162658/org.eclipse.e4.ui.services-0.10.3.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/at/bachmann/solutioncenter/at.bachmann.legacyimport/1.0.0-SNAPSHOT/at.bachmann.legacyimport-1.0.0-SNAPSHOT.jar,reference:file:D:/ws_sc/at.bachmann.legacyimport.test,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/at.bachmann.lib.mjcom.log/1.0.0.201303071606/at.bachmann.lib.mjcom.log-1.0.0.201303071606.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.gef/3.9.0.201212170307/org.eclipse.gef-3.9.0.201212170307.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.forms/3.5.200.v20120705-114351/org.eclipse.ui.forms-3.5.200.v20120705-114351.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.edit.ui/2.8.0.v20130125-0826/org.eclipse.emf.edit.ui-2.8.0.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.beans/1.2.200.v20120523-1955/org.eclipse.core.databinding.beans-1.2.200.v20120523-1955.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.ide/3.8.2.v20121106-165923/org.eclipse.ui.ide-3.8.2.v20121106-165923.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jface.text/3.8.2.v20121126-164145/org.eclipse.jface.text-3.8.2.v20121126-164145.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.intro/3.4.200.v20120521-2344/org.eclipse.ui.intro-3.4.200.v20120521-2344.jar,reference:file:D:/ws_sc/at.bachmann.legacyimport.test/target/work/plugins/org.eclipse.ui.intro.universal_3.2.600.v20120912-155524,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.services/1.0.0.v20120521-2346/org.eclipse.e4.core.services-1.0.0.v20120521-2346.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.di.extensions/0.11.100.v20121024-182359/org.eclipse.e4.core.di.extensions-0.11.100.v20121024-182359.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.di/0.10.1.v20120523-1955/org.eclipse.e4.ui.di-0.10.1.v20120523-1955.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.debug.ui/3.8.2.v20130130-171415/org.eclipse.debug.ui-3.8.2.v20130130-171415.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.console/3.5.100.v20120521-2012/org.eclipse.ui.console-3.5.100.v20120521-2012.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/com.google.inject/3.0.0.v201203062045/com.google.inject-3.0.0.v201203062045.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/javax.xml/1.3.4.v201005080400/javax.xml-1.3.4.v201005080400.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.batik.css/1.6.0.v201011041432/org.apache.batik.css-1.6.0.v201011041432.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.batik.util/1.6.0.v201011041432/org.apache.batik.util-1.6.0.v201011041432.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.batik.util.gui/1.6.0.v201011041432/org.apache.batik.util.gui-1.6.0.v201011041432.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.w3c.dom.svg/1.1.0.v201011041433/org.w3c.dom.svg-1.1.0.v201011041433.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.w3c.css.sac/1.3.1.v200903091627/org.w3c.css.sac-1.3.1.v200903091627.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.w3c.dom.smil/1.0.1.v200903091627/org.w3c.dom.smil-1.0.1.v200903091627.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.commons.lang/2.6.0.v201205030909/org.apache.commons.lang-2.6.0.v201205030909.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.apache.commons.cli/1.2.0.v201105210650/org.apache.commons.cli-1.2.0.v201105210650.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.services/3.3.100.v20120522-1822/org.eclipse.osgi.services-3.3.100.v20120522-1822.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.views/3.6.100.v20120705-114010/org.eclipse.ui.views-3.6.100.v20120705-114010.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.workbench.texteditor/3.8.0.v20120523-1310/org.eclipse.ui.workbench.texteditor-3.8.0.v20120523-1310.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.ui.editors/3.8.0.v20120523-1540/org.eclipse.ui.editors-3.8.0.v20120523-1540.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.compare.core/3.5.200.v20120522-1148/org.eclipse.compare.core-3.5.200.v20120522-1148.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/com.ibm.icu/4.4.2.v20110823/com.ibm.icu-4.4.2.v20110823.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.compare/3.5.301.v20130125-135424/org.eclipse.compare-3.5.301.v20130125-135424.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.common/3.6.100.v20120522-1841/org.eclipse.equinox.common-3.6.100.v20120522-1841.jar@2:start,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.contenttype/3.4.200.v20120523-2004/org.eclipse.core.contenttype-3.4.200.v20120523-2004.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.preferences/3.5.1.v20121031-182809/org.eclipse.equinox.preferences-3.5.1.v20121031-182809.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.registry/3.5.200.v20120522-1841/org.eclipse.equinox.registry-3.5.200.v20120522-1841.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.databinding.observable/1.4.1.v20120521-2329/org.eclipse.core.databinding.observable-1.4.1.v20120521-2329.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.filebuffers/3.5.200.v20120523-1310/org.eclipse.core.filebuffers-3.5.200.v20120523-1310.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.text/3.5.200.v20120523-1310/org.eclipse.text-3.5.200.v20120523-1310.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.filesystem/1.3.200.v20130115-145044/org.eclipse.core.filesystem-1.3.200.v20130115-145044.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.jobs/3.5.300.v20120912-155018/org.eclipse.core.jobs-3.5.300.v20120912-155018.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security/1.1.100.v20120522-1841/org.eclipse.equinox.security-1.1.100.v20120522-1841.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.app/1.3.100.v20120522-1841/org.eclipse.equinox.app-1.3.100.v20120522-1841.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.core.variables/3.2.600.v20120521-2012/org.eclipse.core.variables-3.2.600.v20120521-2012.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.debug.core/3.7.100.v20120521-2012/org.eclipse.debug.core-3.7.100.v20120521-2012.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.draw2d/3.9.0.201212170307/org.eclipse.draw2d-3.9.0.201212170307.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.core.commands/0.10.1.v20120523-1955/org.eclipse.e4.core.commands-0.10.1.v20120523-1955.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/javax.annotation/1.1.0.v201108011116/javax.annotation-1.1.0.v201108011116.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.bindings/0.10.3.v20130123-162658/org.eclipse.e4.ui.bindings-0.10.3.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.core/0.10.2.v20120912-132817/org.eclipse.e4.ui.css.core-0.10.2.v20120912-132817.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.swt/0.10.3.v20130123-162658/org.eclipse.e4.ui.css.swt-0.10.3.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.css.swt.theme/0.9.4.v20130123-162658/org.eclipse.e4.ui.css.swt.theme-0.9.4.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.model.workbench/0.10.1.v20120523-1955/org.eclipse.e4.ui.model.workbench-0.10.1.v20120523-1955.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.widgets/0.12.3.v20130123-162658/org.eclipse.e4.ui.widgets-0.12.3.v20130123-162658.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.ecore.change/2.8.0.v20130125-0546/org.eclipse.emf.ecore.change-2.8.0.v20130125-0546.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.renderers.swt/0.10.3.v20130124-170312/org.eclipse.e4.ui.workbench.renderers.swt-0.10.3.v20130124-170312.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.swt/0.10.3.v20130124-133900/org.eclipse.e4.ui.workbench.swt-0.10.3.v20130124-133900.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench.addons.swt/0.10.3.v20130124-185622/org.eclipse.e4.ui.workbench.addons.swt-0.10.3.v20130124-185622.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.e4.ui.workbench3/0.12.0.v20120521-2329/org.eclipse.e4.ui.workbench3-0.12.0.v20120521-2329.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.ds/1.4.1.v20120926-201320/org.eclipse.equinox.ds-1.4.1.v20120926-201320.jar@1:start,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.event/1.2.200.v20120522-2049/org.eclipse.equinox.event-1.2.200.v20120522-2049.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.common/2.8.0.v20130125-0546/org.eclipse.emf.common-2.8.0.v20130125-0546.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jdt.core/3.8.3.v20130121-145325/org.eclipse.jdt.core-3.8.3.v20130121-145325.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jdt.launching/3.6.101.v20130111-183046/org.eclipse.jdt.launching-3.6.101.v20130111-183046.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.codegen/2.8.0.v20130125-0826/org.eclipse.emf.codegen-2.8.0.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.codegen.ecore/2.8.2.v20130125-0826/org.eclipse.emf.codegen.ecore-2.8.2.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.common.ui/2.7.0.v20130125-0826/org.eclipse.emf.common.ui-2.7.0.v20130125-0826.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.mwe2.runtime/2.3.0.v201206110920/org.eclipse.emf.mwe2.runtime-2.3.0.v201206110920.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.mwe.core/1.2.1.v201206110920/org.eclipse.emf.mwe.core-1.2.1.v201206110920.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.emf.mwe.utils/1.2.1.v201206110920/org.eclipse.emf.mwe.utils-1.2.1.v201206110920.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.util/1.0.400.v20120917-192807/org.eclipse.equinox.util-1.0.400.v20120917-192807.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.core/2.2.0.v20120430-0525/org.eclipse.equinox.p2.core-2.2.0.v20120430-0525.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.metadata/2.1.0.v20120430-2001/org.eclipse.equinox.p2.metadata-2.1.0.v20120430-2001.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.metadata.repository/1.2.100.v20120524-1717/org.eclipse.equinox.p2.metadata.repository-1.2.100.v20120524-1717.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.repository/2.2.0.v20120524-1945/org.eclipse.equinox.p2.repository-2.2.0.v20120524-1945.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.p2.engine/2.2.0.v20130121-021919/org.eclipse.equinox.p2.engine-2.2.0.v20130121-021919.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.jdt.annotation/1.0.1.v20130111-135246/org.eclipse.jdt.annotation-1.0.1.v20130111-135246.jar,reference:file:D:/ws_sc/at.bachmann.legacyimport.test/target/work/plugins/org.eclipse.jdt.debug_3.7.101.v20120913-153601,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.xtend/1.2.0.v201206110941/org.eclipse.xtend-1.2.0.v201206110941.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.xtend.typesystem.emf/1.2.0.v201206110941/org.eclipse.xtend.typesystem.emf-1.2.0.v201206110941.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.xtext.smap/2.3.1.v201208210947/org.eclipse.xtext.smap-2.3.1.v201208210947.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/com.google.guava/10.0.1.v201203051515/com.google.guava-10.0.1.v201203051515.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.junit/4.10.0.v4_10_0_v20120426-0900/org.junit-4.10.0.v4_10_0_v20120426-0900.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.hamcrest.core/1.1.0.v20090501071000/org.hamcrest.core-1.1.0.v20090501071000.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.w3c.dom.events/3.0.0.draft20060413_v201105210656/org.w3c.dom.events-3.0.0.draft20060413_v201105210656.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.launcher/1.3.0.v20120522-1813/org.eclipse.equinox.launcher-1.3.0.v20120522-1813.jar,reference:file:C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.swt.win32.win32.x86/3.100.1.v4236b/org.eclipse.swt.win32.win32.x86-3.100.1.v4236b.jar,reference:file:C:/Users/schreibm/.m2/repository/org/eclipse/tycho/org.eclipse.tycho.surefire.osgibooter/0.16.0/org.eclipse.tycho.surefire.osgibooter-0.16.0.jar,reference:file:C:/Users/schreibm/.m2/repository/org/eclipse/tycho/org.eclipse.tycho.surefire.junit4/0.16.0/org.eclipse.tycho.surefire.junit4-0.16.0.jar"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre7\lib\endorsed"/>
+    <property name="osgi.tracefile" value="D:\ws_sc\at.bachmann.legacyimport.test\target\work\data\.metadata\trace.log"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="eclipse.application" value="org.eclipse.tycho.surefire.osgibooter.headlesstest"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="org.osgi.framework.vendor" value="Eclipse"/>
+    <property name="file.separator" value="\"/>
+    <property name="osgi.debug" value=""/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="osgi.checkConfiguration" value="true"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.country" value="AT"/>
+    <property name="osgi.configuration.cascaded" value="false"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre7"/>
+    <property name="osgi.os" value="win32"/>
+    <property name="eclipse.commands" value="-debug
+-consolelog
+-data
+D:\ws_sc\at.bachmann.legacyimport.test\target\work\data
+-install
+D:\ws_sc\at.bachmann.legacyimport.test\target\work
+-configuration
+D:\ws_sc\at.bachmann.legacyimport.test\target\work\configuration
+-application
+org.eclipse.tycho.surefire.osgibooter.headlesstest
+-testproperties
+D:\ws_sc\at.bachmann.legacyimport.test\target\surefire.properties
+"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.1"/>
+    <property name="osgi.arch" value="x86"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="org.osgi.supports.framework.fragment" value="true"/>
+    <property name="user.variant" value=""/>
+    <property name="osgi.framework.shape" value="jar"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="org.osgi.framework.version" value="1.7.0"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="osgi.dev" value="file:/D:/ws_sc/at.bachmann.legacyimport.test/target/work/dev.properties"/>
+    <property name="osgi.install.area" value="file:/D:/ws_sc/at.bachmann.legacyimport.test/target/work/"/>
+    <property name="osgi.framework" value="file:/C:/Users/schreibm/.m2/repository/p2/osgi/bundle/org.eclipse.osgi/3.8.2.v20130124-134944/org.eclipse.osgi-3.8.2.v20130124-134944.jar"/>
+    <property name="user.home" value="C:\Users\schreibm"/>
+    <property name="osgi.bundlestore" value="D:\ws_sc\at.bachmann.legacyimport.test\target\work\configuration\org.eclipse.osgi\bundles"/>
+    <property name="eclipse.consoleLog" value="true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="osgi.nl" value="de_AT"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oracle\product\11.2.0\ifs\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\ca400\Emulator;C:\ca400\Shared;C:\ca400\;C:\Tools\maven\bin;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="osgi.bundlefile.limit" value="100"/>
+    <property name="eclipse.startTime" value="1362988908678"/>
+    <property name="org.osgi.framework.os.version" value="6.1.0"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="C:\Users\schreibm\.m2\repository\p2\osgi\bundle\org.eclipse.equinox.launcher\1.3.0.v20120522-1813\org.eclipse.equinox.launcher-1.3.0.v20120522-1813.jar"/>
+    <property name="sun.java.command" value="C:\Users\schreibm\.m2\repository\p2\osgi\bundle\org.eclipse.equinox.launcher\1.3.0.v20120522-1813\org.eclipse.equinox.launcher-1.3.0.v20120522-1813.jar -debug -consolelog -data D:\ws_sc\at.bachmann.legacyimport.test\target\work\data -install D:\ws_sc\at.bachmann.legacyimport.test\target\work -configuration D:\ws_sc\at.bachmann.legacyimport.test\target\work\configuration -application org.eclipse.tycho.surefire.osgibooter.headlesstest -testproperties D:\ws_sc\at.bachmann.legacyimport.test\target\surefire.properties"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="gosh.args" value="--nointeractive"/>
+    <property name="surefire.test.class.path" value=""/>
+    <property name="java.io.tmpdir" value="C:\Users\schreibm\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="eclipse.home.location" value="file:/D:/ws_sc/at.bachmann.legacyimport.test/target/work/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\ws_sc\at.bachmann.legacyimport.test"/>
+    <property name="org.osgi.supports.framework.requirebundle" value="true"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="osgi.framework.version" value="3.8.2.v20130124-134944"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="org.osgi.framework.executionenvironment" value="OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6,JavaSE-1.7"/>
+    <property name="osgi.configuration.area" value="file:/D:/ws_sc/at.bachmann.legacyimport.test/target/work/configuration/"/>
+    <property name="osgi.logfile" value="D:\ws_sc\at.bachmann.legacyimport.test\target\work\data\.metadata\.log"/>
+  </properties>
+  <testcase time="0.92" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testConvertDmanFileWithOfflineDevice"/>
+  <testcase time="1.076" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testConvertDmanFileWithFeldbus">
+    <failure message="Converted components: expected:&lt;75&gt; but was:&lt;71&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Converted components: expected:&lt;75&gt; but was:&lt;71&gt;
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at at.bachmann.legacyimport.localdata.ConverterTest.convertAll(ConverterTest.java:137)
+	at at.bachmann.legacyimport.localdata.ConverterTest.testConvertDmanFileWithFeldbus(ConverterTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at at.bachmann.test.common.runner.AnnotatedBuildTypeRunner.runChild(AnnotatedBuildTypeRunner.java:30)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:85)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+</failure>
+    <system-out>
+!ENTRY at.bachmann.core.navigator 1 0 2013-03-11 09:01:53.296
+!MESSAGE *** at.bachmann.core.navigator loaded. Version: 0.9.0.201303071615 ***
+
+!ENTRY at.bachmann.core.module 1 0 2013-03-11 09:01:53.483
+!MESSAGE *** at.bachmann.core.module loaded. Version: 2.0.0.201303080954 ***
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Start Counting Files &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+----/mySolution13629889133119574/templates/ot1xx/ot1xx.m/ot1xx.m
+----/mySolution13629889133119574/templates/ot1xx/mconfig.ini/mconfig.ini
+----/mySolution13629889133119574/templates/ot1xx/.service/.service
+----/mySolution13629889133119574/templates/f/.ethercat/.ethercat
+----/mySolution13629889133119574/templates/d/.pnetDev/.pnetDev
+----/mySolution13629889133119574/templates/c/.pnet/.pnet
+----/mySolution13629889133119574/templates/browser/mconfig.ini/mconfig.ini
+----/mySolution13629889133119574/templates/browser/browser.m/browser.m
+----/mySolution13629889133119574/templates/browser/.swmodule/.swmodule
+----/mySolution13629889133119574/templates/babababa/.ethercat/.ethercat
+----/mySolution13629889133119574/templates/ba/.pnet/.pnet
+----/mySolution13629889133119574/templates/abab/flash0/mconfig.ini/mconfig.ini
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ttl264.m/ttl264.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ti214.m/ti214.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/sem201.m/sem201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/safety.m/safety.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/rs204.m/rs204.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/pwm202.m/pwm202.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ptai216.m/ptai216.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/pn23.m/pn23.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/pn201.m/pn201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/pcfs212.m/pcfs212.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/mbm201.m/mbm201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/isi2xx.m/isi2xx.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/iop201.m/iop201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/fs21x.m/fs21x.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/fm21x.m/fm21x.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/em203.m/em203.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ecat201.m/ecat201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dpm200.m/dpm200.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dor2xx.m/dor2xx.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/do232.m/do232.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/do216.m/do216.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dnm201.m/dnm201.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dmw200.m/dmw200.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dms202.m/dms202.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/dio2xx.m/dio2xx.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/di232.m/di232.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/di216.m/di216.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/di212.m/di212.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ct200c.m/ct200c.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/cs200.m/cs200.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/cnt204.m/cnt204.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/cm202.m/cm202.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/can_mio.m/can_mio.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/bes2x2.m/bes2x2.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/bem2x1.m/bem2x1.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ap211.m/ap211.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ao20x.m/ao20x.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ao208.m/ao208.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/aio288.m/aio288.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/aic212.m/aic212.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/ai20x.m/ai20x.m
+----/mySolution13629889133119574/templates/abab/flash0/DRV/acr222.m/acr222.m
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/ssl.jar/ssl.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/mjvis.jar/mjvis.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/mjsys.jar/mjsys.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/mjlogger.prp/mjlogger.prp
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/SWT.jar/SWT.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/Piccolo.jar/Piccolo.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/M1rt.jar/M1rt.jar
+----/mySolution13629889133119574/templates/abab/flash0/CLASSES/DRAW2D.jar/DRAW2D.jar
+----/mySolution13629889133119574/templates/abab/.params/.params
+----/mySolution13629889133119574/templates/a/.cancfg/.cancfg
+----/mySolution13629889133119574/templates/BES212_N/mconfig.ini/mconfig.ini
+----/mySolution13629889133119574/templates/BES212_N/bes2x2.m/bes2x2.m
+----/mySolution13629889133119574/templates/BES212_N/.hwmodule/.hwmodule
+----/mySolution13629889133119574/templates/4r/.pbus/.pbus
+----/mySolution13629889133119574/templates/3/.sercos/.sercos
+----/mySolution13629889133119574/templates/234/.pbusDev/.pbusDev
+----/mySolution13629889133119574/templates/.templates/.templates
+</system-out>
+  </testcase>
+  <testcase time="0.078" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testConvertCan"/>
+  <testcase time="0.156" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testConvertPPC"/>
+  <testcase time="0.047" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testGetFileName"/>
+  <testcase time="2.044" classname="at.bachmann.legacyimport.localdata.ConverterTest" name="testConvertLocalData15">
+    <failure message="Converted components: expected:&lt;149&gt; but was:&lt;133&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Converted components: expected:&lt;149&gt; but was:&lt;133&gt;
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at at.bachmann.legacyimport.localdata.ConverterTest.convertAll(ConverterTest.java:137)
+	at at.bachmann.legacyimport.localdata.ConverterTest.testConvertLocalData15(ConverterTest.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at at.bachmann.test.common.runner.AnnotatedBuildTypeRunner.runChild(AnnotatedBuildTypeRunner.java:30)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:123)
+	at org.eclipse.tycho.surefire.osgibooter.OsgiSurefireBooter.run(OsgiSurefireBooter.java:85)
+	at org.eclipse.tycho.surefire.osgibooter.HeadlessTestApplication.run(HeadlessTestApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+</failure>
+    <system-out>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; Start Counting Files &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+----/mySolution13629889146689201/templates/data/ot1xx.m/ot1xx.m/ot1xx.m
+----/mySolution13629889146689201/templates/data/ot1xx.m/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/data/ot1xx.m/.service/.service
+----/mySolution13629889146689201/templates/data/data/data/comtst/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/data/data/data/comtst/comtst.m/comtst.m
+----/mySolution13629889146689201/templates/data/data/data/comtst/.swmodule/.swmodule
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/SYS/msys.o/msys.o
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/SYS/mjvm.o/mjvm.o
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/SYS/artisrv.o/artisrv.o
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/SYS/MxCCore.all/MxCCore.all
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/SYS/MxCCore/MxCCore
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ttl264.m/ttl264.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ti214.m/ti214.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/sem201.m/sem201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/safety.m/safety.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/rs204.m/rs204.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/pwm202.m/pwm202.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ptai216.m/ptai216.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/pn23.m/pn23.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/pn201.m/pn201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/pcfs212.m/pcfs212.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/mx200c.m/mx200c.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/mbm201.m/mbm201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/isi2xx.m/isi2xx.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/iop201.m/iop201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/fs21x.m/fs21x.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/fm21x.m/fm21x.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/em203.m/em203.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ecat201.m/ecat201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dpm200.m/dpm200.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dor2xx.m/dor2xx.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/do232.m/do232.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/do216.m/do216.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dnm201.m/dnm201.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dmw200.m/dmw200.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dms202.m/dms202.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/dio2xx.m/dio2xx.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/di232.m/di232.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/di216.m/di216.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/di212.m/di212.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ct200c.m/ct200c.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/cnt204.m/cnt204.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/cm202.m/cm202.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/can_mio.m/can_mio.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/bes2x2.m/bes2x2.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/bem2x1.m/bem2x1.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ao20x.m/ao20x.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ao208.m/ao208.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/aio288.m/aio288.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/aic212.m/aic212.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/ai20x.m/ai20x.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/DRV/acr222.m/acr222.m
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/ssl.jar/ssl.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/mjvis.jar/mjvis.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/mjsys.jar/mjsys.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/mjlogger.prp/mjlogger.prp
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/SWT.jar/SWT.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/Piccolo.jar/Piccolo.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/M1rt.jar/M1rt.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/cfc0/CLASSES/DRAW2D.jar/DRAW2D.jar
+----/mySolution13629889146689201/templates/data/data/OffKonf/.params/.params
+----/mySolution13629889146689201/templates/data/comtst/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/data/comtst/comtst.m/comtst.m
+----/mySolution13629889146689201/templates/data/comtst/.swmodule/.swmodule
+----/mySolution13629889146689201/templates/data/Sercos/.sercos/.sercos
+----/mySolution13629889146689201/templates/data/SLC284/safety.m/safety.m
+----/mySolution13629889146689201/templates/data/SLC284/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/data/SLC284/.hwmodule/.hwmodule
+----/mySolution13629889146689201/templates/data/ProfinetIRT/.pnet/.pnet
+----/mySolution13629889146689201/templates/data/ProfinetDevice/.pnetDev/.pnetDev
+----/mySolution13629889146689201/templates/data/Profinet/.pnet/.pnet
+----/mySolution13629889146689201/templates/data/ProfibusDevice/.pbusDev/.pbusDev
+----/mySolution13629889146689201/templates/data/Profibus/.pbus/.pbus
+----/mySolution13629889146689201/templates/data/Ethercat/.ethercat/.ethercat
+----/mySolution13629889146689201/templates/data/CAN/.cancfg/.cancfg
+----/mySolution13629889146689201/templates/OffKonf/cfc0/mconfig.ini/mconfig.ini
+----/mySolution13629889146689201/templates/OffKonf/cfc0/SYS/msys.o/msys.o
+----/mySolution13629889146689201/templates/OffKonf/cfc0/SYS/mjvm.o/mjvm.o
+----/mySolution13629889146689201/templates/OffKonf/cfc0/SYS/artisrv.o/artisrv.o
+----/mySolution13629889146689201/templates/OffKonf/cfc0/SYS/MxCCore.all/MxCCore.all
+----/mySolution13629889146689201/templates/OffKonf/cfc0/SYS/MxCCore/MxCCore
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ttl264.m/ttl264.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ti214.m/ti214.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/sem201.m/sem201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/safety.m/safety.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/rs204.m/rs204.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/pwm202.m/pwm202.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ptai216.m/ptai216.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/pn23.m/pn23.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/pn201.m/pn201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/pcfs212.m/pcfs212.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/mx200c.m/mx200c.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/mbm201.m/mbm201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/isi2xx.m/isi2xx.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/iop201.m/iop201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/fs21x.m/fs21x.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/fm21x.m/fm21x.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/em203.m/em203.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ecat201.m/ecat201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dpm200.m/dpm200.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dor2xx.m/dor2xx.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/do232.m/do232.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/do216.m/do216.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dnm201.m/dnm201.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dmw200.m/dmw200.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dms202.m/dms202.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/dio2xx.m/dio2xx.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/di232.m/di232.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/di216.m/di216.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/di212.m/di212.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ct200c.m/ct200c.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/cnt204.m/cnt204.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/cm202.m/cm202.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/can_mio.m/can_mio.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/bes2x2.m/bes2x2.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/bem2x1.m/bem2x1.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ao20x.m/ao20x.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ao208.m/ao208.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/aio288.m/aio288.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/aic212.m/aic212.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/ai20x.m/ai20x.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/DRV/acr222.m/acr222.m
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/ssl.jar/ssl.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/mjvis.jar/mjvis.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/mjsys.jar/mjsys.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/mjlogger.prp/mjlogger.prp
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/SWT.jar/SWT.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/Piccolo.jar/Piccolo.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/M1rt.jar/M1rt.jar
+----/mySolution13629889146689201/templates/OffKonf/cfc0/CLASSES/DRAW2D.jar/DRAW2D.jar
+----/mySolution13629889146689201/templates/OffKonf/.params/.params
+----/mySolution13629889146689201/templates/.templates/.templates
+</system-out>
+  </testcase>
+</testsuite>

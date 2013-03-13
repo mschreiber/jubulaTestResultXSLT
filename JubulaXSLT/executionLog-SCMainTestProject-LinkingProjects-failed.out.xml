@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="SCMainTestProject 1.0.LinkingProjects" failures="1" errors="0" skipped="5" tests="8">
+<testcase classname="LinkingProjects" name="Add a new Solution" time="8.881"/>
+<testcase classname="LinkingProjects" name="Create Safety Project" time="7.564"/>
+<testcase classname="LinkingProjects" name="Link Safety Project Via Context Menu" time="2.671">
+<failure type="Select Context Menu Entry by Textpath: Not Found">
+      Step: Select Context Menu Entry by Textpath on Tree
+      Action-Type: Select Context Menu Entry by Textpath
+      Description: Not Found
+      Name: Textpath
+      Type: String
+      Value: Add Link...
+      Name: Operator
+      Type: String
+      Value: equals
+      Name: Mouse Button
+      Type: Integer
+      Value: 3</failure>
+</testcase>
+<testcase classname="LinkingProjects" name="Link Project to SubProject">
+<skipped/>
+</testcase>
+<testcase classname="LinkingProjects" name="Link Project via DnD">
+<skipped/>
+</testcase>
+<testcase classname="LinkingProjects" name="Delete Linked Safety Project">
+<skipped/>
+</testcase>
+<testcase classname="LinkingProjects" name="Link VisProject via Copy/Paste">
+<skipped/>
+</testcase>
+<testcase classname="LinkingProjects" name="DeleteSolution">
+<skipped/>
+</testcase>
+</testsuite>
